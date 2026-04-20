@@ -1,0 +1,45 @@
+# ============================================================
+# Helmet Detection System - Requirements
+# ============================================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# YOLOv8 (Ultralytics - easiest to use, includes YOLOv5 & v8)
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Data & Utilities
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+PyYAML>=6.0
+
+# Alert System
+playsound>=1.3.0
+pygame>=2.5.0
+
+# Dataset Download
+kaggle>=1.5.16
+gdown>=4.7.0
+requests>=2.31.0
+
+# Logging & Monitoring
+tensorboard>=2.13.0
+Pillow>=10.0.0
+
+# Optional: Number Plate Detection
+easyocr>=1.7.0
+
+# Web Interface (optional dashboard)
+flask>=3.0.0
