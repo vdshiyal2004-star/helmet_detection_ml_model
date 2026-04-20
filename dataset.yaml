@@ -1,0 +1,21 @@
+# ============================================================
+# dataset.yaml — YOLOv8/v11 Configuration
+# ============================================================
+
+# The absolute root path to your dataset folder
+path: F:/OneDrive/Desktop/helmet-detection-system/helmet-detection/dataset
+
+# Relative paths to image folders
+train: images/train
+val:   images/val
+test:  images/test
+
+# Number of classes
+nc: 3
+
+# Class names 
+# (Update 'person' if class 2 represents something else in your data)
+names:
+  0: helmet
+  1: no_helmet
+  2: person
